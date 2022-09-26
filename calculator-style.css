@@ -1,0 +1,72 @@
+.head{
+    text-align: center;
+
+}
+.main-div{
+    width: 325px;
+    height: 370px;
+    background:rgb(68, 67, 67);
+    position: absolute;
+    left: 40%;
+    border-radius: .5rem;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgb(15, 7, 7);
+}
+p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    
+
+}
+.button-number{
+    width: 55px;
+    height: 40px;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    background: rgb(78, 76, 76);
+    color: white;
+}
+#screen{
+    height: 40px;
+    width: 278px;
+    margin-left:17px;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 7px;
+    background: rgb(145, 171, 179);
+
+}
+.button-clear{
+    width: 55px;
+    height: 40px;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    background: rgb(240, 6, 6);
+    color: white;
+
+}
+.button-operator{
+    width: 55px;
+    height: 40px;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    background: rgb(160, 154, 154);
+    color: white;
+
+}
+/* .button-number:hover{ */
+    /* border: 4px solid rgb(236, 232, 232); */
+/* } */
+.button-operator:hover{
+    background: rgb(41, 41, 43);
+    border: 4px solid white;
+}
